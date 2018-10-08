@@ -1,0 +1,27 @@
+<template>
+  <view class="<%= pkgName %>">
+    <view><%= pkgNameToPascalCase %> Component</view>
+  </view>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: { }
+  },
+  behaviors: [ ],
+  properties: { },
+  data: { },
+  methods: { }
+}
+
+<% if (isPlugin) { %>
+export const plugin = {
+}
+<% } %>
+</script>
+
+<style lang="less">
+.<%= pkgName %> {
+}
+</style>

@@ -1,0 +1,16 @@
+<template>
+  <view><%= pageNameToPascalCase %> Page</view>
+</template>
+
+<script>
+export default {
+  config: {<% if (title) { %>
+    navigationBarTitleText: '<%= title %>',<% } %>
+    usingComponents: {}
+  },
+  data: {}
+}
+</script>
+
+<style lang="less">
+</style>

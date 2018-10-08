@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "ui-icon";
+    src: url('iconfont.ttf?t=1502549776894') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('iconfont.svg?t=1502549776894#ui-icon') format('svg');
+    /* iOS 4.1- */
+}
+
+.ui-icon {
+    font-family: "ui-icon" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow-left:before {
+    content: "\e605";
+}
+
+.icon-user:before {
+    content: "\e622";
+}
+
+.icon-home:before {
+    content: "\e62b";
+}
